@@ -43,11 +43,11 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(83, 386);
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.Location = new System.Drawing.Point(178, 390);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(154, 79);
+            this.button1.Size = new System.Drawing.Size(70, 70);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Старт";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -120,22 +120,22 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button2.Location = new System.Drawing.Point(403, 386);
+            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
+            this.button2.Location = new System.Drawing.Point(372, 390);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(154, 79);
+            this.button2.Size = new System.Drawing.Size(70, 70);
             this.button2.TabIndex = 6;
-            this.button2.Text = "Стоп";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button3.Location = new System.Drawing.Point(243, 386);
+            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
+            this.button3.Location = new System.Drawing.Point(273, 390);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(154, 79);
+            this.button3.Size = new System.Drawing.Size(70, 70);
             this.button3.TabIndex = 7;
-            this.button3.Text = "Пауза";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -143,7 +143,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(650, 477);
+            this.ClientSize = new System.Drawing.Size(650, 478);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label1);
